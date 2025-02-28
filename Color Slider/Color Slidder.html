@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><div class="maindiv">
+    <h2>Color Sliding App</h2>
+    <div class="color-box" id="colorBox">rgb(100, 100, 100)</div>
+
+    <div class="slider-container">
+        <div>
+            <label for="red">RED</label><br>
+            <input type="range" id="red" min="0" max="255" value="100">
+            <div id="redValue">100</div>
+        </div>
+        <div>
+            <label for="green">GREEN</label><br>
+            <input type="range" id="green" min="0" max="255" value="100">
+            <div id="greenValue">100</div>
+        </div>
+        <div>
+            <label for="blue">BLUE</label><br>
+            <input type="range" id="blue" min="0" max="255" value="100">
+            <div id="blueValue">100</div>
+        </div>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+</div>
+</body>
+</html>
